@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+<link rel="stylesheet" href="./styling.css">
+<body>
+  <div>
+    <form>
+        <p>
+          <h3>Create your own button</h3>
+          <input type="text" id="new" name="new" />
+          <button type="submit" id="sbmt">Add</button>
+        </p>
+    </form>
+  </div>
+  <div>
+    <p>
+      <a class="waves-effect waves-light btn col s4 anime"  data-eva="EVANGELION">Neon Genisis Evangelion</a>
+    </p>
+    <p>
+      <a class="waves-effect waves-light btn col s4" class="anime" data-eva="Full Metal Alchemist">Full Metal Alchemist</a>
+    </p>
+    <p>
+      <a class="waves-effect waves-light btn col s4" class="anime" data-eva="Ghost in The Shell">Ghost in The Shell</a>
+    </p>
+    <div id="gif"></div>
+  </div>
+<script src="./app.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
+
